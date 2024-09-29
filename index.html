@@ -21,14 +21,14 @@
     while(domanda2===null){
         domanda2=prompt("Quante dita ha una mano?")
     }
-    if (domanda2.toLowerCase()==="cinque" || domanda2.toLowerCase()===5){
+    if (domanda2.toLowerCase()==="cinque" || domanda2.toLowerCase()==="5"){
         punteggio = punteggio+1
     }
     let domanda3=prompt("Quanti capelli ha in testa un pelato?")
     while(domanda3===null){
         domanda3=prompt("Quanti capelli ha in testa un pelato?")
     }
-    if (domanda3.toLowerCase()==="zero" || domanda3.toLowerCase()=== 0){
+    if (domanda3.toLowerCase()==="zero" || domanda3.toLowerCase()=== "0"){
         punteggio = punteggio+1
     }
     let domanda4=prompt("Quale è il nome della palestra commerciale più famosa in Italia?")
@@ -45,6 +45,7 @@
     if (domanda5.toLowerCase()==="bianco"){
         punteggio = punteggio+1
     }
+    
     if (punteggio<2){
         alert("Hai totalizzato "+punteggio+" punto")
     }
